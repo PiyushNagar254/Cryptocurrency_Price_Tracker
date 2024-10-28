@@ -46,7 +46,7 @@ def upload_to_s3(pandas_df, bucket, file_path, aws_access_key_id, aws_secret_acc
     csv_buffer = StringIO()
     pandas_df.to_csv(csv_buffer, index=False)
 
-    # Upload to S3
+    # Uploading to S3
     s3_client.put_object(
         Bucket=bucket,
         Key=file_path,
