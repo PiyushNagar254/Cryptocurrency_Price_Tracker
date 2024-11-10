@@ -30,7 +30,7 @@ Use reduceByKey to calculate the total trading volume across all cryptocurrencie
 Spark SQL:
 Create a TempView for the data and use Spark SQL to:
 Identify the days with the highest trading volume for Bitcoin.
-Calculate the average daily percentage change for Ethereum in 2023.
+Calculate the average daily percentage change for Ethereum in 2016.
 Identify the most volatile days for each cryptocurrency based on the highest percentage change between Open and Close.
 
 1. dataput.py - This script uploads a file to an AWS S3 bucket using boto3 and AWS credentials loaded from an .env file
