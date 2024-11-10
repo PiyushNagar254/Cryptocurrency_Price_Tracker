@@ -28,13 +28,23 @@ Calculate the average daily percentage change for Ethereum in 2016.
 Identify the most volatile days for each cryptocurrency based on the highest percentage change between Open and Close.
 
 1. dataput.py - This script uploads a file to an AWS S3 bucket using boto3 and AWS credentials loaded from an .env file
+   <img width="938" alt="Screenshot 2024-11-11 at 1 27 35 AM" src="https://github.com/user-attachments/assets/609d2fdb-9b92-4fe1-a1b3-976001f46f82">
+
 2. datafetchingfromaws.py - This script fetches cryptocurrency data from an S3 bucket, cleans and processes it using Spark, and performs analysis like identifying the highest volume days for Bitcoin, calculating Ethereum's average daily change, and finding the most volatile days for each cryptocurrency.
+  <img width="1259" alt="Screenshot 2024-11-11 at 1 30 29 AM" src="https://github.com/user-attachments/assets/836cf8f6-23af-477f-acf0-a27e1b03297c">
+  <img width="1259" alt="Screenshot 2024-11-11 at 1 30 39 AM" src="https://github.com/user-attachments/assets/07180844-94be-4e02-ba7f-c9655751fec8">
+
+
 3. reducebykey.py - This script processes cryptocurrency data using PySpark, extracting year and month from the date, calculating total trading volume per month for each cryptocurrency using RDD's reduceByKey, and saves the result to a CSV file.
+   <img width="1259" alt="Screenshot 2024-11-11 at 1 33 02 AM" src="https://github.com/user-attachments/assets/6212ad17-7736-49a1-8d80-dca2e1eff09b">
+<img width="1259" alt="Screenshot 2024-11-11 at 1 33 17 AM" src="https://github.com/user-attachments/assets/998d92b2-75ae-4b29-b2e5-ef70283a9e71">
+
 4. groupbyagreegation.py - This script processes cryptocurrency data using PySpark to:
 Calculate total trading volume per cryptocurrency per week,the average daily price change per cryptocurrency and the total market cap per cryptocurrency.
-5. finaldatainaws.py - This script uploads all .csv files from specified local folders to an S3 bucket while maintaining the folder structure.
-6. Cleaned_filtered_data – This folder contains the cleaned and filtered data based on Ethereum and Bitcoin.
-7. Final_data_for_aws – This folder contains the results of various analyses, with answers to specific questions saved in separate CSV files.
+
+6. finaldatainaws.py - This script uploads all .csv files from specified local folders to an S3 bucket while maintaining the folder structure.
+7. Cleaned_filtered_data – This folder contains the cleaned and filtered data based on Ethereum and Bitcoin.
+8. Final_data_for_aws – This folder contains the results of various analyses, with answers to specific questions saved in separate CSV files.
 
 
 
