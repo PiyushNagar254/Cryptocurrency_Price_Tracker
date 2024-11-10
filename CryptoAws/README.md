@@ -41,10 +41,17 @@ Identify the most volatile days for each cryptocurrency based on the highest per
 
 4. groupbyagreegation.py - This script processes cryptocurrency data using PySpark to:
 Calculate total trading volume per cryptocurrency per week,the average daily price change per cryptocurrency and the total market cap per cryptocurrency.
+<img width="1259" alt="Screenshot 2024-11-11 at 1 38 23 AM" src="https://github.com/user-attachments/assets/aeb442cc-1307-4a01-a9f7-df03a3b90676">
+<img width="1259" alt="Screenshot 2024-11-11 at 1 39 02 AM" src="https://github.com/user-attachments/assets/040798bf-5792-4790-a5fe-405b1fb9d781">
+<img width="1259" alt="Screenshot 2024-11-11 at 1 39 39 AM" src="https://github.com/user-attachments/assets/e5f278b6-3e90-4872-b44f-9b719a44f283">
 
-6. finaldatainaws.py - This script uploads all .csv files from specified local folders to an S3 bucket while maintaining the folder structure.
-7. Cleaned_filtered_data – This folder contains the cleaned and filtered data based on Ethereum and Bitcoin.
-8. Final_data_for_aws – This folder contains the results of various analyses, with answers to specific questions saved in separate CSV files.
+
+5. finaldatainaws.py - This script uploads all .csv files from specified local folders to an S3 bucket while maintaining the folder structure.
+<img width="1259" alt="Screenshot 2024-11-11 at 1 42 52 AM" src="https://github.com/user-attachments/assets/ddc3daa7-9dda-4577-b34f-a69476ac4610">
+
+6. Cleaned_filtered_data – This folder contains the cleaned and filtered data based on Ethereum and Bitcoin.
+7. Final_data_for_aws – This folder contains the results of various analyses, with answers to specific questions saved in separate CSV files.
+<img width="392" alt="Screenshot 2024-11-11 at 1 43 57 AM" src="https://github.com/user-attachments/assets/2da79a8e-7f23-42ab-af07-6aae42e07fbb">
 
 
 
