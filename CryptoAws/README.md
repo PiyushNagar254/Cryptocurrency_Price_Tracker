@@ -2,6 +2,8 @@
 Bitcoin Cryptocurrency Dataset Analysis
 
 This dataset includes key metrics such as Date, Open, Close, High, Low, Volume, and Market Cap.
+<img width="1130" alt="Screenshot 2024-11-11 at 1 45 27 AM" src="https://github.com/user-attachments/assets/7bbf7bd0-a8fa-4538-a8ec-3093635b9273">
+
 
 Analysis Steps:
 Data Cleaning:
