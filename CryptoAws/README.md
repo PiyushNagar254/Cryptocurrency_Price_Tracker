@@ -36,5 +36,5 @@ Calculate total trading volume per cryptocurrency per week,the average daily pri
 6. Cleaned_filtered_data – This folder contains the cleaned and filtered data based on Ethereum and Bitcoin.
 7. Final_data_for_aws – This folder contains the results of various analyses, with answers to specific questions saved in separate CSV files.
 
-   <img width="1440" alt="Screenshot 2024-11-11 at 1 24 49 AM" src="https://github.com/user-attachments/assets/694c5421-4524-462b-b189-f3bc6d76b71b">
+
 
